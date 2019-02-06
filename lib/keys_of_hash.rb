@@ -5,7 +5,6 @@ class Hash
     self.each do |k,v|
       if v == arg1 || args.include?(v)
         output << k
-        
       end
     end
     output
